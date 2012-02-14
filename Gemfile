@@ -1,5 +1,6 @@
+source "http://rubygems.org"
+
 gemspec
 
-group :development, :test do
-  gem 'ruby-debug19'
-end
+gem 'rake', :require => false
+gem 'awesome_print'

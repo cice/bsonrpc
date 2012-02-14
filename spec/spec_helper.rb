@@ -2,6 +2,7 @@ require 'rubygems'
 require 'bundler/setup'
 
 require 'bsonrpc'
+require 'awesome_print'
 
 module SpecHelper
   def anythings count
